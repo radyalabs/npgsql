@@ -115,7 +115,7 @@ namespace Npgsql
         /// <summary>
         /// Maximum number of possible connections in any pool.
         /// </summary>
-        internal const int PoolSizeLimit = 1024;
+        internal const int PoolSizeLimit = 10000;
 
         static readonly NpgsqlLogger Log = NpgsqlLogManager.GetCurrentClassLogger();
 
